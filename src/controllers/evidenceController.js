@@ -77,7 +77,7 @@ export async function getSummary(req, res) {
     ];
 
     res.json({
-      caseNumber: caseData.case_number,
+      caseNumber: caseData.caseNumber,
       count: evidences.length,
       timeline,
       recommendations,
